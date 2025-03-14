@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+ 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Meu Portfólio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ 
+    <section id="inicio" class="hero-section text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Olá, eu sou <span class="text-accent">Seu Nome</span></h1>
+                    <h2 class="h3 mb-4">Desenvolvedor Web & Designer</h2>
+                    <p class="lead mb-4">Criando soluções digitais criativas e funcionais para ajudar empresas a
+                        alcançarem seus objetivos.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#contato" class="btn btn-accent btn-lg">Entre em Contato</a>
+                        <a href="#projetos" class="btn btn-outline-light btn-lg">Ver Projetos</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <img src="/api/placeholder/400/400" alt="Sua Foto" class="img-fluid rounded-circle profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="sobre" class="py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="/api/placeholder/600/400" alt="Sobre Mim" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <div class="title-underline"></div>
+                    <p class="lead mt-4">Sou um desenvolvedor web apaixonado por criar experiências digitais incríveis.
+                    </p>
+                    <p>Com mais de 5 anos de experiência no mercado, tenho trabalhado com diversas tecnologias e
+                        frameworks para entregar soluções de alta qualidade. Meu objetivo é ajudar empresas a alcançarem
+                        seus objetivos através de um design atraente e funcionalidades robustas.</p>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <p><strong><i class="bi bi-person-fill me-2"></i>Nome:</strong> Seu Nome</p>
+                            <p><strong><i class="bi bi-envelope-fill me-2"></i>Email:</strong> seu@email.com</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong><i class="bi bi-geo-alt-fill me-2"></i>Localização:</strong> Sua Cidade, País</p>
+                            <p><strong><i class="bi bi-briefcase-fill me-2"></i>Disponível:</strong> Freelance</p>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-accent">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="projetos" class="py-5">
+        <div class="container py-5">
+            <h2 class="section-title text-center">Meus Projetos</h2>
+            <div class="title-underline mx-auto"></div>
+            <p class="text-center lead mt-4 mb-5">Aqui estão alguns dos meus trabalhos recentes</p>
+ 
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100">
+                        <img src="/api/placeholder/600/400" class="card-img-top" alt="Projeto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Website Corporativo</h5>
+                            <p class="card-text">Desenvolvimento de um site institucional responsivo com painel
+                                administrativo.</p>
+                            <div class="d-flex gap-2">
+                                <span class="badge tech-badge">HTML5</span>
+                                <span class="badge tech-badge">CSS3</span>
+                                <span class="badge tech-badge">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-sm btn-accent">Ver Projeto</a>
+                            <a href="#" class="btn btn-sm btn-outline-accent">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100">
+                        <img src="/api/placeholder/600/400" class="card-img-top" alt="Projeto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">E-commerce</h5>
+                            <p class="card-text">Loja virtual completa com sistema de pagamentos integrado e gestão de
+                                estoque.</p>
+                            <div class="d-flex gap-2">
+                                <span class="badge tech-badge">React</span>
+                                <span class="badge tech-badge">Node.js</span>
+                                <span class="badge tech-badge">MongoDB</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-sm btn-accent">Ver Projeto</a>
+                            <a href="#" class="btn btn-sm btn-outline-accent">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100">
+                        <img src="/api/placeholder/600/400" class="card-img-top" alt="Projeto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Aplicativo Mobile</h5>
+                            <p class="card-text">Aplicativo de gerenciamento de tarefas com sincronização em nuvem.</p>
+                            <div class="d-flex gap-2">
+                                <span class="badge tech-badge">Flutter</span>
+                                <span class="badge tech-badge">Firebase</span>
+                                <span class="badge tech-badge">Dart</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-sm btn-accent">Ver Projeto</a>
+                            <a href="#" class="btn btn-sm btn-outline-accent">Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-outline-accent">Ver Todos os Projetos</a>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="habilidades" class="py-5">
+        <div class="container py-5">
+            <h2 class="section-title text-center">Minhas Habilidades</h2>
+            <div class="title-underline mx-auto"></div>
+            <p class="text-center lead mt-4 mb-5">Tecnologias e ferramentas que domino</p>
+ 
+            <div class="row g-4">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-box">
+                        <div class="text-center">
+                            <i class="bi bi-filetype-html fs-1 text-accent"></i>
+                            <h5 class="mt-2">HTML5</h5>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-box">
+                        <div class="text-center">
+                            <i class="bi bi-filetype-css fs-1 text-accent"></i>
+                            <h5 class="mt-2">CSS3</h5>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-box">
+                        <div class="text-center">
+                            <i class="bi bi-filetype-js fs-1 text-accent"></i>
+                            <h5 class="mt-2">JavaScript</h5>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-box">
+                        <div class="text-center">
+                            <i class="bi bi-bootstrap fs-1 text-accent"></i>
+                            <h5 class="mt-2">Bootstrap</h5>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-box">
+                        <div class="text-center">
+                            <i class="bi bi-github fs-1 text-accent"></i>
+                            <h5 class="mt-2">Git</h5>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-box">
+                        <div class="text-center">
+                            <i class="bi bi-database fs-1 text-accent"></i>
+                            <h5 class="mt-2">MySQL</h5>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-box">
+                        <div class="text-center">
+                            <i class="bi bi-phone fs-1 text-accent"></i>
+                            <h5 class="mt-2">Responsive</h5>
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-box">
+                        <div class="text-center">
+                            <i class="bi bi-palette fs-1 text-accent"></i>
+                            <h5 class="mt-2">UI/UX</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="contato" class="py-5 contact-section">
+        <div class="container-fluid align-items-center flex-column">
+            <h2 class="section-title text-center">Entre em Contato</h2>
+            <div class="title-underline mx-auto"></div>
+            <p class="text-center lead mt-4 mb-5">Vamos conversar sobre o seu projeto</p>
+ 
+            <div class="row g-4">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="card contact-info-card h-100">
+                        <div class="card-body">
+                            <h4 class="mb-4">Informações de Contato</h4>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="contact-icon-box me-3">
+                                    <i class="bi bi-geo-alt"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Localização</h5>
+                                    <p class="mb-0">Sua Cidade, País</p>
+                                </div>
+                            </div>
+ 
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="contact-icon-box me-3">
+                                    <i class="bi bi-envelope"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Email</h5>
+                                    <p class="mb-0">seu@email.com</p>
+                                </div>
+                            </div>
+ 
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="contact-icon-box me-3">
+                                    <i class="bi bi-telephone"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Telefone</h5>
+                                    <p class="mb-0">+XX (XX) XXXXX-XXXX</p>
+                                </div>
+                            </div>
+ 
+                            <div class="d-flex align-items-center">
+                                <div class="contact-icon-box me-3">
+                                    <i class="bi bi-clock"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Horário de Trabalho</h5>
+                                    <p class="mb-0">Seg-Sex: 9:00 - 18:00</p>
+                                </div>
+                            </div>
+ 
+                            <div class="mt-4">
+                                <h4 class="mb-3">Redes Sociais</h4>
+                                <div class="d-flex gap-3">
+                                    <a href="#" class="social-icon">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                    <a href="#" class="social-icon">
+                                        <i class="bi bi-twitter"></i>
