@@ -1,4 +1,3 @@
-/* Variáveis CSS */
 :root {
     --dark-bg: #121212;
     --dark-secondary: #1e1e1e;
@@ -12,7 +11,6 @@
     --border-color: #333;
   }
  
-  /* Estilos Gerais */
   body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--dark-bg);
@@ -70,7 +68,6 @@
     width: 70%;
   }
  
-  /* Seção Hero */
   .hero-section {
     min-height: 100vh;
     background: linear-gradient(170deg, var(--dark-bg) 0%, var(--dark-secondary) 100%);
@@ -170,13 +167,11 @@
     margin-bottom: 20px;
   }
  
-  /* Seção Sobre */
   #sobre {
     background-color: var(--dark-secondary);
     color: white;
   }
  
-  /* Seção Projetos */
   #projetos {
     background-color: var(--dark-bg);
     color: white
@@ -219,7 +214,6 @@
     font-weight: 500;
   }
  
-  /* Seção Habilidades */
   #habilidades {
     background-color: var(--dark-secondary);
     color: white;
@@ -250,7 +244,6 @@
     font-size: 3rem;
   }
  
-  /* Seção Contato */
   .contact-section {
     background-color: var(--dark-bg);
     color: white;
@@ -312,7 +305,6 @@
     transform: translateY(-3px);
   }
  
-  /* Footer */
   footer {
     background-color: var(--dark-tertiary);
     padding: 30px 0;
@@ -320,7 +312,6 @@
     border-top: 1px solid var(--border-color);
   }
  
-  /* Responsividade */
   @media (max-width: 991.98px) {
     .hero-section {
       padding: 100px 0 50px;
@@ -333,7 +324,6 @@
     }
   }
  
-  /* Animação de fade-in */
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -349,7 +339,6 @@
     animation: fadeIn 1s ease forwards;
   }
  
-  /* Classe para rolagem suave */
   html {
     scroll-behavior: smooth;
   }
