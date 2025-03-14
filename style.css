@@ -173,11 +173,13 @@
   /* Seção Sobre */
   #sobre {
     background-color: var(--dark-secondary);
+    color: white;
   }
  
   /* Seção Projetos */
   #projetos {
     background-color: var(--dark-bg);
+    color: white
   }
  
   .project-card {
