@@ -231,6 +231,7 @@
     background-color: var(--card-bg);
     border-radius: 10px;
     border: 1px solid var(--border-color);
+    color: #00acc1;
     display: flex;
     justify-content: center;
     align-items: center;
